@@ -9,17 +9,14 @@ const questions = [
     {type: "input", message: "What installations are needed:", name: "Installations"},
     {type: "input", message: "What is your project is used for:", name: "Usage"},
     {type: "checkbox", message: "What license is neeeded:", name: "License", choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]},
-    {type: "input", message: "What command should be run run tests:", name: "Test"},
-    {type: "input", message: "Who were the contributors:", name: "Contributors"}
+    {type: "input", message: "What command should be run for tests:", name: "Test"},
+    {type: "input", message: "Who were the collaborators:", name: "Credits"},
+    {type: "input", message: "How can others contribute:", name: "Contributing"}
 
 ];
 // console.log(questions)
-inquirer.prompt(questions)
-.then(function(data){
+inquirer.prompt(questions).then(function(data){
 
-    // console.log(data)
-    // response.push(data);
-    // console.log(response)
     writeToFile("README.md", data)
 
 })
@@ -27,18 +24,14 @@ inquirer.prompt(questions)
 
 // const responseStr = response.join("\n");
 
-
-
-
-
-
 function writeToFile(filename, data) {
     try{
-        console.log(data + "line 37");
+        // console.log(data + "line 37");
         const response = JSON.stringify(data)
         const markdown = generateMarkdown(response)
-        fs.writeFileSync(filename, markdown)
+        fs.writeFileSync(filename, markdown, function() {
         console.log('success!')
+        });
     } catch (err) {
         console.error(err)
     }
