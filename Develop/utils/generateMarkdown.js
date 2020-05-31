@@ -11,10 +11,15 @@ ${reformatted.Description}
 ## ${`Table of Contents`}
 
 ${`[Installations]`}(#Installations)
+
 ${`[Usage]`}(#Usage)
+
 ${`[License]`}(#License)
+
 ${`[Credits]`}(#Credits)
+
 ${`[Test]`}(#Test)
+
 ${`[Contributing]`}(#Contributing)
 
 ## ${`Installations`}
@@ -31,7 +36,7 @@ ${reformatted.Credits}
 ## ${`Test`}
 
 ${reformatted.Test}
-## ${`Contrubing`}
+## ${`Contributing`}
 
 ${reformatted.Contributing}
 `;
