@@ -6,12 +6,12 @@ This will generate a README.md file for any project you are working on. The file
 
 ## Table of Contents
 
-Installations(#Installations)
-Usage(#Usage)
-License(#License)
-Credits(#Credits)
-Test(#Test)
-Contributing(#Contributing)
+[`Installations`](#Installations)
+[`Usage`](#Usage)
+[`License`](#License)
+[`Credits`](#Credits)
+[`Test`](#Test)
+[`Contributing`](#Contributing)
 
 ## Installations
 
