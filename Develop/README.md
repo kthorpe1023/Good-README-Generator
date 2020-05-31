@@ -1,16 +1,32 @@
 
 # Good README Generator
-# Description
-###### This can be used to format a README.md file for any of your projects.
-# Installations
-###### npm i
-# Usage
-###### This is used to create README.md files. Your terminal will display questions and your answers will appear in the formatted README that is generated.
-# License
-######None
-# Credits
-###### Katie Thorpe
-# Test
-###### npm test
-# Contrubing
-###### commit early and often
+## Description
+
+This will generate a README.md file for any project you are working on. The file will include: title, description, table of content with links to other parts of the page, installations, usage, license, test, and credits.
+
+## Table of Contents
+
+Installations(#Installations)
+Usage(#Usage)
+License(#License)
+Credits(#Credits)
+Test(#Test)
+Contributing(#Contributing)
+
+## Installations
+
+npm i
+## Usage
+
+This project is used to create a formatted README file with ease. In your terminal, type "node + (file name)" And you will be prompted with questions, for which the answers will be utilized in your README file.
+## License
+
+## Credits
+
+Katie Thorpe
+## Test
+
+test
+## Contrubing
+
+Commit early and often
