@@ -3,6 +3,7 @@ function generateMarkdown(data) {
   let reformatted = JSON.parse(data);
   console.log(reformatted.Title + "PARSED in generate read-me")
   return `
+  ![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/kthorpe1023/Good-README-Generator/1)
 # ${reformatted.Title}
 ## ${`Description`}
 

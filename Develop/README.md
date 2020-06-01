@@ -1,4 +1,5 @@
 
+  ![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/kthorpe1023/Good-README-Generator/1)
 # Good README Generator
 ## Description
 
@@ -6,12 +7,12 @@ This will generate a README.md file for any project you are working on. The file
 
 ## Table of Contents
 
-*[Installations](#Installations)
-*[Usage](#Usage)
-*[License](#License)
-*[Credits](#Credits)
-*[Test](#Test)
-*[Contributing](#Contributing)
+* [Installations](#Installations)
+* [Usage](#Usage)
+* [License](#License)
+* [Credits](#Credits)
+* [Test](#Test)
+* [Contributing](#Contributing)
 
 ## Installations
 
